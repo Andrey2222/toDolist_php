@@ -1,17 +1,17 @@
         <section class="form-section" id="authorization">
-            <h1>Authorization</h1>
+            <p>Authorization</p>
             <form action="engines/authorization.php" method="post">
-            <div class="form-group">
+            <div class="input-group form-group">
               <label for="login_email">Email</label>
-              <input type="text" name="login_email" id="login_email" placeholder="Enter email">
+              <input class="form-control" type="text" name="login_email" id="login_email" placeholder="Enter email">
               <div class="errors">One error</div>
             </div>
-            <div class="form-group">
+            <div class="input-group form-group">
               <label for="login_password">Password</label>
-              <input type="password" name="login_password" id="login_password" placeholder="Enter password">
+              <input class="form-control" type="password" name="login_password" id="login_password" placeholder="Enter password">
               <div class="errors">One error</div>
             </div>
 
-            <button type="submit" class="action-button" id="authorization_submit" name="button">Authorize</button>
+            <button type="submit" class="btn btn-primary action-button" id="authorization_submit" name="button">Authorize</button>
           </form>
         </section>

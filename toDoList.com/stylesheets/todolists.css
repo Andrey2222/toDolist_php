@@ -1,5 +1,5 @@
 .add-todolist {
-  margin-top: 100px;
+  margin-top: 20px;
   width: 200px;
   height: 45px;
   background-color: salmon;
@@ -8,12 +8,16 @@
   box-shadow: 0 0 10px gray;
 }
 
+main {
+  background-image: url(../img/images.jpg);
+  background-repeat: repeat;
+}
 .todolist{
   background-color: #b9c5ff;
   min-height: 235px;
   width: 600px;
-  border-radius: 23px 23px 0 0;
-  margin-top: 200px;
+  border-radius:0 0 23px 23px;
+  margin-top: 100px;
   margin: auto;
   border: 2px solid #91a4ff;
   margin-bottom: 100px;
@@ -26,8 +30,12 @@
 .head-list{
   height: 55px;
   width: 600px;
-  background-color: #91a4ff;
-  border-radius: 20px 20px 0 0;
+  background-color: blue;
+  color: white;
+  /*border-radius: 20px 20px 0 0;*/
+}
+.h1 {
+  padding-right: 390px;
 }
 
 .tasks-list{
@@ -42,6 +50,7 @@
   width: 600px;
   background-color: #f5fff5;
   border: 0.080px solid #91a4ff;
+  /*position:relative;*/
 }
 
 .task-count-list{
@@ -72,7 +81,7 @@
   color: grey;
   outline: none;
   float: left;
-  margin-left: 70px;
+  margin-left: 20px;
   background-color: #f5fff5;
 }
 
@@ -82,14 +91,14 @@
 }
 
 .btn-in-task-list{
-  border-radius: 30px;
-  height: 35px;
-  width: 35px;
+  /*border-radius: 30px;*/
+  /*height: 35px;
+  width: 35px;*/
   margin-top: 17px;
   background-color: #91a4ff;
-  outline: none;
-  font-weight: bold;
-  font-size: 30px;
+ /* outline: none;
+  font-weight: bold;*/
+  font-size: 15px;
   color: white;
 }
 

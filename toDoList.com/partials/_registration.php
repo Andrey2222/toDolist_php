@@ -1,21 +1,21 @@
  <section class="form-section hidden" id="registration">
-            <h1>Registration</h1>
+            <p>Registration</p>
             <form action="engines/registration.php" method="post">
-            <div class="form-group">
+            <div class="input-group form-group">
               <label for="email">Email</label>
-              <input type="text" id="email" name="email" placeholder="Enter email">
+              <input class="form-control" type="text" id="email" name="email" placeholder="Enter email">
               <div class="errors">One error</div>
             </div>
-            <div class="form-group">
+            <div class="input-group form-group">
               <label for="password">Password</label>
-              <input type="password" id="password" name="password" placeholder="Enter password">
+              <input class="form-control" type="password" id="password" name="password" placeholder="Enter password">
               <div class="errors">One error</div>
             </div>
-            <div class="form-group">
+            <div class=" input-group form-group">
               <label for="confirm-password">Confirm password</label>
-              <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm password">
+              <input class="form-control" type="password" id="confirm_password" name="confirm_password" placeholder="Confirm password">
               <div class="errors">One error</div>
             </div>
-            <button type="submit" class="action-button" id="registration_submit" name="button">Sign up</button>
+            <button type="submit" class="btn btn-primary action-button" id="registration_submit" name="button">Sign up</button>
             </form>
         </section>
